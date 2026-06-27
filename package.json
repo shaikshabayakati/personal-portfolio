@@ -114,10 +114,6 @@
     "unist-builder": "3.0.0",
     "unist-util-visit": "^5.0.0"
   },
-  "resolutions": {
-    "@types/react": "19.2.5",
-    "@types/react-dom": "19.2.3"
-  },
   "engines": {
     "node": "22.x"
   }
