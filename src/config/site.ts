@@ -23,10 +23,6 @@ export const MAIN_NAV: NavItem[] = [
     title: "Components",
     href: "/components",
   },
-  {
-    title: "Blog",
-    href: "/blog",
-  },
 ];
 
 export const GITHUB_USERNAME = "shaiksha-bayakati";

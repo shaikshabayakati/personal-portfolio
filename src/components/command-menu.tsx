@@ -10,7 +10,6 @@ import {
   LetterTextIcon,
   MessageCircleMoreIcon,
   MoonStarIcon,
-  RssIcon,
   SunMediumIcon,
   TextIcon,
   TriangleDashedIcon,
@@ -63,11 +62,6 @@ const MENU_LINKS: CommandLinkItem[] = [
     title: "Components",
     href: "/components",
     icon: Icons.react,
-  },
-  {
-    title: "Blog",
-    href: "/blog",
-    icon: RssIcon,
   },
 ];
 
