@@ -7,7 +7,7 @@ export const USER: User = {
   username: "shaiksha",
   gender: "male",
   pronouns: "he/him",
-  bio: "AI and software engineer. I build things end-to-end.",
+  bio: "Chronically online. Probably on the spectrum. Professionally addicted to building software.",
   flipSentences: [
     "AI & Software Engineer",
     "IIT Madras Data Science Student",
@@ -26,10 +26,9 @@ export const USER: User = {
     },
   ],
   about: `
-- **AI & Software Engineer** with a passion for building end-to-end applications, from model training and OCR pipelines to deployed web applications.
-- Experienced in delivering software and AI solutions for **government clients** and **small businesses**.
-- Currently pursuing a **Bachelor of Science (BS) in Data Science** at the **Indian Institute of Technology Madras (IIT Madras)** with a CGPA of **8.5**.
-- Skilled in **Python, TypeScript, Go, PyTorch, LangChain, Leaflet.js, and Cloud DevOps**.
+Chronically online. Probably on the spectrum. Professionally addicted to building software.
+
+I’ve delivered software and AI solutions for government clients and SMEs, but honestly, I’d do it even if they didn’t pay me. Give me something to build, a laptop, and mild sleep deprivation and I’m entertained for weeks.
 `,
   avatar: "/profilepicture.png",
   ogImage: "/profilepicture.png",

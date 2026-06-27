@@ -18,12 +18,26 @@ export function Nav({
       data-active-id={activeId}
       className={cn("flex items-center gap-4", className)}
     >
-      {items.map(({ title, href }) => {
+      {items.map(({ title, href, external }) => {
         const active =
           activeId === href ||
           (href === "/" // Home page
             ? ["/", "/index"].includes(activeId || "")
             : activeId?.startsWith(href));
+
+        if (external) {
+          return (
+            <a
+              key={href}
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-mono text-sm font-medium text-muted-foreground transition-[color] duration-300 hover:text-foreground"
+            >
+              {title}
+            </a>
+          );
+        }
 
         return (
           <NavItem key={href} href={href} active={active}>

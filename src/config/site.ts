@@ -23,11 +23,16 @@ export const MAIN_NAV: NavItem[] = [
     title: "Components",
     href: "/components",
   },
+  {
+    title: "GitHub",
+    href: "https://github.com/shaikshabayakati/personal-portfolio",
+    external: true,
+  },
 ];
 
-export const GITHUB_USERNAME = "shaiksha-bayakati";
-export const SOURCE_CODE_GITHUB_REPO = "shaiksha-bayakati/portfolio";
-export const SOURCE_CODE_GITHUB_URL = "https://github.com/shaiksha-bayakati/portfolio";
+export const GITHUB_USERNAME = "shaikshabayakati";
+export const SOURCE_CODE_GITHUB_REPO = "shaikshabayakati/personal-portfolio";
+export const SOURCE_CODE_GITHUB_URL = "https://github.com/shaikshabayakati/personal-portfolio";
 
 export const UTM_PARAMS = {
   utm_source: "shaiksha.dev",
