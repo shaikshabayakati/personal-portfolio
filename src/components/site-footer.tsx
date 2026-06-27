@@ -16,11 +16,11 @@ export function SiteFooter() {
           Built by{" "}
           <a
             className="link"
-            href="https://x.com/iamncdai"
+            href="https://github.com/shaikshabayakati"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
           >
-            ncdai
+            shaiksha
           </a>
           . The source code is available on{" "}
           <a

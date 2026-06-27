@@ -49,11 +49,11 @@ export const metadata: Metadata = {
   keywords: SITE_INFO.keywords,
   authors: [
     {
-      name: "ncdai",
+      name: USER.displayName,
       url: SITE_INFO.url,
     },
   ],
-  creator: "ncdai",
+  creator: USER.username,
   openGraph: {
     siteName: SITE_INFO.name,
     url: "/",
@@ -73,23 +73,19 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    creator: "@iamncdai", // Twitter username
+    creator: "@shaiksha",
     images: [SITE_INFO.ogImage],
   },
   icons: {
     icon: [
       {
-        url: "https://assets.chanhdai.com/images/favicon.ico",
+        url: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%23000' d='M12 0H2v4h8v2H2v10h10v-4H6v-2h6V0Z'/%3E%3Cpath fill='%23000' d='M14 0h4v20h-4Z'/%3E%3Cpath fill='%23000' d='M18 0h8v6H18V0Z'/%3E%3Cpath fill='%23000' d='M18 10h8v6H18V10Z'/%3E%3Cpath fill='%23000' d='M18 6h2v4h-2V6Z'/%3E%3C/svg%3E",
         sizes: "any",
-      },
-      {
-        url: "https://assets.chanhdai.com/images/favicon.svg",
-        type: "image/svg+xml",
       },
     ],
     apple: {
-      url: "https://assets.chanhdai.com/images/apple-touch-icon.png",
-      type: "image/png",
+      url: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%23000' d='M12 0H2v4h8v2H2v10h10v-4H6v-2h6V0Z'/%3E%3Cpath fill='%23000' d='M14 0h4v20h-4Z'/%3E%3Cpath fill='%23000' d='M18 0h8v6H18V0Z'/%3E%3Cpath fill='%23000' d='M18 10h8v6H18V10Z'/%3E%3Cpath fill='%23000' d='M18 6h2v4h-2V6Z'/%3E%3C/svg%3E",
+      type: "image/svg+xml",
       sizes: "180x180",
     },
   },

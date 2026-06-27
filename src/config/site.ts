@@ -3,7 +3,7 @@ import type { NavItem } from "@/types/nav";
 
 export const SITE_INFO = {
   name: USER.displayName,
-  url: process.env.APP_URL || "https://chanhdai.com",
+  url: process.env.APP_URL || "https://shaiksha.dev",
   ogImage: USER.ogImage,
   description: USER.bio,
   keywords: USER.keywords,
@@ -11,7 +11,7 @@ export const SITE_INFO = {
 
 export const META_THEME_COLORS = {
   light: "#ffffff",
-  dark: "#09090b",
+  dark: "#202020",
 };
 
 export const MAIN_NAV: NavItem[] = [
@@ -29,12 +29,12 @@ export const MAIN_NAV: NavItem[] = [
   },
 ];
 
-export const GITHUB_USERNAME = "ncdai";
-export const SOURCE_CODE_GITHUB_REPO = "ncdai/chanhdai.com";
-export const SOURCE_CODE_GITHUB_URL = "https://github.com/ncdai/chanhdai.com";
+export const GITHUB_USERNAME = "shaiksha-bayakati";
+export const SOURCE_CODE_GITHUB_REPO = "shaiksha-bayakati/portfolio";
+export const SOURCE_CODE_GITHUB_URL = "https://github.com/shaiksha-bayakati/portfolio";
 
 export const UTM_PARAMS = {
-  utm_source: "chanhdai.com",
+  utm_source: "shaiksha.dev",
   utm_medium: "referral",
   utm_campaign: "portfolio",
 };

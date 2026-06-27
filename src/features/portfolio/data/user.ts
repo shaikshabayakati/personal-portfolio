@@ -1,73 +1,47 @@
 import type { User } from "@/features/portfolio/types/user";
 
 export const USER: User = {
-  firstName: "Chánh Đại",
-  lastName: "Nguyễn",
-  displayName: "Chánh Đại",
-  username: "ncdai",
+  firstName: "Shaiksha",
+  lastName: "Bayakati",
+  displayName: "Shaiksha Bayakati",
+  username: "shaiksha",
   gender: "male",
   pronouns: "he/him",
-  bio: "Creating with code. Small details matter.",
+  bio: "AI and software engineer. I build things end-to-end.",
   flipSentences: [
-    "Creating with code. Small details matter.",
-    "Design Engineer",
-    "Open Source Contributor",
+    "AI & Software Engineer",
+    "IIT Madras Data Science Student",
+    "Building end-to-end AI applications",
   ],
-  address: "Ho Chi Minh City, Viet Nam",
-  phoneNumber: "Kzg0Nzc3ODg4MTQ4", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
-  email: "ZGFpQGNoYW5oZGFpLmNvbQ==", // base64 encoded
-  website: "https://chanhdai.com",
-  jobTitle: "Design Engineer",
+  address: "Ananthapur, Andhra Pradesh, India",
+  phoneNumber: "KzkxOTA5MDA2MDYzMg==", // Base64 encoded "+919090060632"
+  email: "YmF5YWthdGlzaGFpa3NoYUBnbWFpbC5jb20=", // Base64 encoded "bayakatishaiksha@gmail.com"
+  website: "",
+  jobTitle: "AI & Software Engineer",
   jobs: [
     {
-      title: "Senior Frontend Developer & UI Design Lead",
-      company: "Simplamo",
-      website: "https://simplamo.com?ref=IN-926722",
-    },
-    {
-      title: "Founder",
-      company: "Quaric",
-      website: "https://quaric.com",
+      title: "AI Engineer",
+      company: "Lom",
+      website: "#",
     },
   ],
-  //   about: `
-  // Hello, World! I am Chánh Đại — a Design Engineer passionate about creating high-performance, user-centric software solutions with intuitive and engaging designs.
-
-  // With 5+ years of experience, I specialize in building high-quality web and mobile applications using Next.js, React, TypeScript, and modern front-end technologies. Beyond work, I love exploring new technologies and turning ideas into reality through personal projects.
-
-  // One of my key projects, [ZaDark](https://zadark.com), launched in 2022, enhances the Zalo experience on PC and Web, surpassing 80k+ downloads on [SourceForge](https://sourceforge.net/projects/zadark) and reaching 20k+ active users on the [Chrome Web Store](https://chromewebstore.google.com/detail/llfhpkkeljlgnjgkholeppfnepmjppob) (as of Sep 2025).
-
-  // I'm also the creator of [React Wheel Picker](https://react-wheel-picker.chanhdai.com) — iOS-like wheel picker for React with smooth inertia scrolling and infinite loop support. It has earned 4k+ weekly downloads on [npm](https://www.npmjs.com/package/@ncdai/react-wheel-picker) and was selected for [▲Vercel OSS Program](https://vercel.com/blog/summer-2025-oss-program#react-wheel-picker) summer 2025 cohort.
-
-  // Let's connect and collaborate!
-  //   `,
   about: `
-- **Design Engineer** with **5+ years of experience**, known for pixel-perfect execution and strong attention to small details.
-- Skilled in **Next.js**, **React**, **TypeScript**, and modern front-end technologies; building high-quality, user-centric web and mobile applications.
-- Passionate about exploring new technologies and turning ideas into reality through polished, thoughtfully crafted personal projects.
-- Creator of [ZaDark](https://zadark.com) (2022): enhances the Zalo experience on PC & Web
-  - **80k+ downloads** on [SourceForge](https://sourceforge.net/projects/zadark)
-  - **20k+ active users** on the [Chrome Web Store](https://chromewebstore.google.com/detail/llfhpkkeljlgnjgkholeppfnepmjppob)
-- Creator of [React Wheel Picker](https://react-wheel-picker.chanhdai.com): iOS-like wheel picker with inertia scrolling & infinite loop
-  - **4k+ weekly downloads** on [npm](https://www.npmjs.com/package/@ncdai/react-wheel-picker)
-  - [▲Vercel OSS Program](https://vercel.com/blog/summer-2025-oss-program#react-wheel-picker) summer 2025 cohort
+- **AI & Software Engineer** with a passion for building end-to-end applications, from model training and OCR pipelines to deployed web applications.
+- Experienced in delivering software and AI solutions for **government clients** and **small businesses**.
+- Currently pursuing a **Bachelor of Science (BS) in Data Science** at the **Indian Institute of Technology Madras (IIT Madras)** with a CGPA of **8.5**.
+- Skilled in **Python, TypeScript, Go, PyTorch, LangChain, Leaflet.js, and Cloud DevOps**.
 `,
-  avatar: "https://assets.chanhdai.com/images/chanhdai-avatar-ghibli.webp",
-  ogImage:
-    "https://assets.chanhdai.com/images/screenshot-og-image-light.png?t=1763205174",
-  namePronunciationUrl: "/audio/chanhdai.mp3",
-  timeZone: "Asia/Ho_Chi_Minh",
+  avatar: "/profilepicture.png",
+  ogImage: "/profilepicture.png",
+  namePronunciationUrl: "",
+  timeZone: "Asia/Kolkata",
   keywords: [
-    "ncdai",
-    "nguyenchanhdai",
-    "nguyen chanh dai",
-    "chanhdai",
-    "chanh dai",
-    "iamncdai",
-    "quaric",
-    "zadark",
-    "nguyễn chánh đại",
-    "chánh đại",
+    "Shaiksha",
+    "Shaiksha Bayakati",
+    "bayakatishaiksha",
+    "AI Engineer",
+    "AI Consultant",
+    "IIT Madras",
   ],
-  dateCreated: "2023-10-20", // YYYY-MM-DD
+  dateCreated: "2026-06-27", // YYYY-MM-DD
 };
