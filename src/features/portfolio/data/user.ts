@@ -13,7 +13,7 @@ export const USER: User = {
     "IIT Madras Data Science Student",
     "Building end-to-end AI applications",
   ],
-  address: "Ananthapur, Andhra Pradesh, India",
+  address: "Bengaluru, Karnataka, India",
   phoneNumber: "KzkxOTA5MDA2MDYzMg==", // Base64 encoded "+919090060632"
   email: "YmF5YWthdGlzaGFpa3NoYUBnbWFpbC5jb20=", // Base64 encoded "bayakatishaiksha@gmail.com"
   website: "",
