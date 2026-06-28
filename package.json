@@ -115,6 +115,6 @@
     "unist-util-visit": "^5.0.0"
   },
   "engines": {
-    "node": "22.x"
+    "node": "24.x"
   }
 }
