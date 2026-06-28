@@ -1,4 +1,4 @@
-import { InfinityIcon, LinkIcon } from "lucide-react";
+import { InfinityIcon } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
@@ -11,10 +11,7 @@ import {
   CollapsibleWithContext,
 } from "@/components/ui/collapsible";
 import { Tag } from "@/components/ui/tag";
-import { SimpleTooltip } from "@/components/ui/tooltip";
 import { ProseMono } from "@/components/ui/typography";
-import { UTM_PARAMS } from "@/config/site";
-import { addQueryParams } from "@/utils/url";
 
 import type { Project } from "../../types/projects";
 
@@ -78,18 +75,6 @@ export function ProjectItem({
                   </dd>
                 </dl>
               </div>
-
-              <SimpleTooltip content="Open Project Link">
-                <a
-                  className="relative flex size-6 shrink-0 items-center justify-center text-muted-foreground after:absolute after:-inset-2 hover:text-foreground"
-                  href={addQueryParams(project.link, UTM_PARAMS)}
-                  target="_blank"
-                  rel="noopener"
-                >
-                  <LinkIcon className="pointer-events-none size-4" />
-                  <span className="sr-only">Open Project Link</span>
-                </a>
-              </SimpleTooltip>
 
               <div
                 className="shrink-0 text-muted-foreground [&_svg]:size-4"
