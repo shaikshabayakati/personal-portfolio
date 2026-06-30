@@ -21,7 +21,9 @@ export function ExperiencePositionItem({
 }: {
   position: ExperiencePosition;
 }) {
-  const { start, end } = position.employmentPeriod;
+  const period = position.employmentPeriod;
+  const start = period?.start ?? "";
+  const end = period?.end;
   const isOngoing = !end;
 
   return (
@@ -72,24 +74,26 @@ export function ExperiencePositionItem({
               </>
             )}
 
-            <dl>
-              <dt className="sr-only">Employment Period</dt>
-              <dd className="flex items-center gap-0.5">
-                <span>{start}</span>
-                <span className="font-mono">—</span>
-                {isOngoing ? (
-                  <>
-                    <InfinityIcon
-                      className="size-4.5 translate-y-[0.5px]"
-                      aria-hidden
-                    />
-                    <span className="sr-only">Present</span>
-                  </>
-                ) : (
-                  <span>{end}</span>
-                )}
-              </dd>
-            </dl>
+            {period && (
+              <dl>
+                <dt className="sr-only">Employment Period</dt>
+                <dd className="flex items-center gap-0.5">
+                  <span>{start}</span>
+                  <span className="font-mono">—</span>
+                  {isOngoing ? (
+                    <>
+                      <InfinityIcon
+                        className="size-4.5 translate-y-[0.5px]"
+                        aria-hidden
+                      />
+                      <span className="sr-only">Present</span>
+                    </>
+                  ) : (
+                    <span>{end}</span>
+                  )}
+                </dd>
+              </dl>
+            )}
           </div>
         </CollapsibleTrigger>
 

@@ -70,10 +70,6 @@ export const EXPERIENCES: Experience[] = [
       {
         id: "iit-madras-ds",
         title: "Indian Institute of Technology Madras",
-        employmentPeriod: {
-          start: "2023",
-          end: "2026",
-        },
         icon: "education",
         description: `- Currently studying for a Bachelor of Science (BS) in Data Science.
 - CGPA: 8.5 / 10.0.
